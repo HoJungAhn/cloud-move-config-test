@@ -20,6 +20,7 @@ server:
 name: woogaris-default
 
 spring:
+  profiles: default
   application:
     name: cloud-movie-front
 
@@ -35,6 +36,7 @@ server:
 name: woogaris-k8s
 
 spring:
+  profiles: k8s
   application:
     name: cloud-movie-front
 
