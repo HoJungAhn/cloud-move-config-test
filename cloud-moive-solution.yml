@@ -1,6 +1,8 @@
 server:
   port: 18080
 
+name: woogaris
+
 spring:
   application:
     name: cloud-movie-front
@@ -31,7 +33,7 @@ management:
 ---
 
 server:
-  port: 8080
+  port: 18080
 
 name: woogaris-k8s
 
